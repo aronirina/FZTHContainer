@@ -8,6 +8,8 @@ function Hotel(hotel) {
 	this.startPrice = hotel.startPrice;
 }
 
+//test source control
+
 Hotel.prototype.getDisplayText = function() {
 	return this.name + ' ' + this.country;
 };
